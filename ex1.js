@@ -12,5 +12,7 @@ const perro = new Animal('perro', 'Toby', 5);
 console.log("Perro:", perro);
 
 // COMPLTETAR
+const rana = new Animal('rana', "Gustavo", 1)
+console.log("Rana: ", rana);
 
 

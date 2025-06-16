@@ -11,6 +11,8 @@ Fíjate en ex1-ejemplo.js. Ejecútalo y observa en los ejemplos.
 Ahora crea una *instancia de la clase Animal* de tipo _rana_, de nombre _Gustavo_ y que tiene 1 año de edad.
 Muestra la rana por consola.
 
+<img src="https://oscarm.tinytake.com/media/1779242?filename=1750071578698_TinyTake16-06-2025-12-59-34_638856683781840953.png&sub_type=thumbnail_preview&type=attachment&width=794&height=103" title="Powered by TinyTake Screen Capture"/><br>
+
 ## ex2
 
 Completa  el [Schema](https://mongoosejs.com/docs/guide.html#definition) que representa a un animal.
