@@ -6,5 +6,5 @@ const animalSchema = new mongoose.Schema({
 
 const Animal = mongoose.model('Animal', animalSchema);
 
-const michi = new Animal({ especie: 'gato', nombre: 'Michi', edad: 2 });
+const michi = new Animal({ especie: 'gato', nombre: 'Vertín', edad: 11 });
 console.log(michi);
