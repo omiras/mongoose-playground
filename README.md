@@ -39,14 +39,18 @@ Han decidido crear una base de datos de nombre _teknom_, y una colección de nom
 - Fecha de nacimiento (obligatorio)
 - Grupo sanguíneo. Solamente puede ser uno de estos: 'A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-' . Es un campo opcional.
 - Teléfono móvil. Es necesario validar que sea un móvil español. (obligatorio)
-- Dirección postal. Consta de 3 subcampos: calle, ciudad y código postal
-- Un campo para indicar si la ficha del paciente está activa o no lo está. Por defecto, cuando se da de alta en el sistema al paciente se considera que *sí* tiene la ficha activa
-- Un campo para guardar las alergias del paciente. Una estructura de datos adecuada puede ser un array de strings
+- Dirección postal. Consta de 3 subcampos: calle, ciudad y código postal. Es un campo opcional
+- Un campo para indicar si la ficha del paciente está activa o no lo está. Por defecto, cuando se da de alta en el sistema al paciente se considera que *sí* tiene la ficha activa. Campo opcional.
+- Un campo para guardar las alergias del paciente. Una estructura de datos adecuada puede ser un array de strings. Campo opcional.
 
 **Nota importante**: En la línea `await mongoose.connect('AQUI VA TU CONNECTION STRING/teknom');` asegúrate de usar tu cadena de conexión a la base de datos de MongoDB Atlas
 
 1. Si defines correctamente tu _Schema_ la paciente Juana debería insertarse correctamente en tu base de datos de MongoDB Atlas.
 2. Prueba de insertar algún otro paciente.
+
+<img src="https://oscarm.tinytake.com/media/177929e?filename=1750072511759_TinyTake16-06-2025-01-15-09_638856693110893655.png&sub_type=thumbnail_preview&type=attachment&width=797&height=63" title="Powered by TinyTake Screen Capture"/><br>
+
+<img src="https://oscarm.tinytake.com/media/17792a5?filename=1750072588589_TinyTake16-06-2025-01-16-05_638856693871182928.png&sub_type=thumbnail_preview&type=attachment&width=800&height=501" title="Powered by TinyTake Screen Capture"/><br>
 
 ### ex3 : Iteración 2 - Pacientes incorrectos
 
