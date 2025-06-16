@@ -1,0 +1,15 @@
+{
+  "name": "mongoose-playground",
+  "version": "1.0.0",
+  "description": "Ejecuta `npm install` para instalar todas las dependencias de este proyecto.\r Luego ejecugta cada script con `node nombre-fichero.js`",
+  "main": "ex1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^8.15.2"
+  }
+}
