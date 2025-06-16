@@ -22,8 +22,12 @@ Un animal posee 3 características:
 - Nombre, de tipo string
 - Edad, de tipo number
 
+Todos los campos son requeridos.
+
 No es necesario guardar el animal en ninguna base de datos, tan solo definir su _Schema_ correctamente usando _Mongoose_
 Aquí tienes un [ejemplo completo](https://github.com/omiras/ejemplos-backend-ironhack/edit/main/mongoose/app-dungeon-dragons-solution.js) de creación de un Schema en Mongoose
+
+<img src="https://oscarm.tinytake.com/media/177924f?filename=1750071794503_TinyTake16-06-2025-01-03-12_638856685938065377.png&sub_type=thumbnail_preview&type=attachment&width=627&height=169" title="Powered by TinyTake Screen Capture"/><br>
 
 ## ex3
 

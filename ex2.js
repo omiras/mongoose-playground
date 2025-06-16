@@ -1,7 +1,20 @@
 const mongoose = require('mongoose');
+const { type } = require('os');
 
 const animalSchema = new mongoose.Schema({
     // Completar
+    especie: {
+        required: true,
+        type: String,
+    },
+    nombre: {
+        required: true,
+        type: String
+    },
+    edad: {
+        required: true,
+        type: Number
+    }
 });
 
 const Animal = mongoose.model('Animal', animalSchema);
