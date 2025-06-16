@@ -1,3 +1,4 @@
+const { connect } = require('http2');
 const mongoose = require('mongoose');
 
 main().catch(err => console.log(err));
@@ -15,6 +16,7 @@ async function main() {
         firstName: "Juana",
         lastName: "Pérez",
         birthDate: new Date("1980-03-21"),
+        bloodType: "A+",
         phone: "612345678",
         address: {
             street: "Fake Street 123",
@@ -25,5 +27,7 @@ async function main() {
     });
 
     await juana.save();
+
+    console.log("Paciente insertado en la base de datos correctamente");
 }
 
