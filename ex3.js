@@ -10,7 +10,7 @@ async function main() {
         lastName: { type: String, required: true },
         birthDate: { type: Date, required: true },
         bloodType: { type: String, enum: ['A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-'] },
-        phone: { type: String, required: true, match: /^[679]\d{8}$/ },
+        phone: { type: String, required: true, match: /^[67]\d{8}$/ },
         address: {
             street: String,
             city: String,
