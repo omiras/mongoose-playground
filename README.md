@@ -21,6 +21,7 @@ Un animal posee 3 características:
 - Edad, de tipo number
 
 No es necesario guardar el animal en ninguna base de datos, tan solo definir su _Schema_ correctamente usando _Mongoose_
+Aquí tienes un [ejemplo completo](https://github.com/omiras/ejemplos-backend-ironhack/edit/main/mongoose/app-dungeon-dragons-solution.js) de creación de un Schema en Mongoose
 
 ## ex3
 
