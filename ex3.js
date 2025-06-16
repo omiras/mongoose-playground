@@ -14,6 +14,7 @@ async function main() {
     const juana = new Patient({
         firstName: "Juana",
         lastName: "Pérez",
+        bloodType: "A+",
         birthDate: new Date("1980-03-21"),
         phone: "612345678",
         address: {

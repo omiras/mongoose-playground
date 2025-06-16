@@ -37,6 +37,7 @@ Han decidido crear una base de datos de nombre _teknom_, y una colección de nom
 - Nombre (obligatorio)
 - Apellidos (obligatorio)
 - Fecha de nacimiento (obligatorio)
+- Grupo sanguíneo. Solamente puede ser uno de estos: 'A+', 'A-', 'B+', 'B-', 'AB+', 'AB-', 'O+', 'O-' . Es un campo opcional.
 - Teléfono móvil. Es necesario validar que sea un móvil español. (obligatorio)
 - Dirección postal. Consta de 3 subcampos: calle, ciudad y código postal
 - Un campo para indicar si la ficha del paciente está activa o no lo está. Por defecto, cuando se da de alta en el sistema al paciente se considera que *sí* tiene la ficha activa
